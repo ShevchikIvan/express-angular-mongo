@@ -15,5 +15,5 @@ ADD . /usr/src/app
 
 #добавляем 
 ADD start.sh /usr/src/app/start.sh
-RUN chmod +x /usr/src/app/start.sh
+#RUN chmod +x /usr/src/app/start.sh
 CMD "/usr/src/app/start.sh"
